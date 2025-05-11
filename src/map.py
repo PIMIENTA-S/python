@@ -3,7 +3,7 @@ import osmnx as ox
 place_name = "Medellín, Colombia"
 G = ox.graph_from_place(place_name, network_type="drive")
 
-# ox.plot_graph(graph)
+# ox.plot_graph(G)
 
 ox.plot_graph(G, node_size=1, node_color="red")
 
